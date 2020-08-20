@@ -23,5 +23,5 @@ def som(codtxt):
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    app.run(threaded=True, port=5000)
+    app.run(threaded=True, port=80)
 # env FLASK_APP=server.py flask run -h 0.0.0.0
